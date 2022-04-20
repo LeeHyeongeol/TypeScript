@@ -1,8 +1,8 @@
 let 첫글자: string = "Lee";
 첫글자 = "seo";
 
-let 나이: number = 27;
-나이 = 27;
+let 나이3: number = 27;
+나이3 = 27;
 
 let 결혼했니: boolean = true;
 결혼했니: false;

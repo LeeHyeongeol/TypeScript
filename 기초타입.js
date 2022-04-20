@@ -1,7 +1,7 @@
 var 첫글자 = "Lee";
 첫글자 = "seo";
-var 나이 = 27;
-나이 = 27;
+var 나이3 = 27;
+나이3 = 27;
 var 결혼했니 = true;
 결혼했니: false;
 var 집이있니 = undefined;
