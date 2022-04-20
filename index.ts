@@ -4,7 +4,7 @@
 //간단한 변수 타입 지정
 //앞으로 이름에 문자만 들어올 수 있음
 let 이름: string = "Lee";
-이름 = 123;
+// 이름 = 123;
 이름 = "23";
 
 //배열이 들어가는데 각 요소 타입은 string이어야 함!
@@ -26,7 +26,7 @@ function 함수(x: number): number {
 	return x * 2;
 }
 함수(123);
-함수("문자");
+// 함수("문자");
 
 //튜플타입 : 셀 수 있는 수량의 짝
 type Member = [number, boolean];
@@ -46,7 +46,7 @@ let jane: Crew = { name: "jane" };
 //클래스 문법에서 타입스크립트 적용
 class User {
 	name;
-	constructore(name: string) {
+	constructor(name: string) {
 		this.name = name;
 	}
 }
