@@ -15,10 +15,10 @@ var 문자 = "kim";
 var 문자1 = 123;
 var 문자2 = "문자";
 //변수 타입은 number, 리턴 값의 타입도 number
-function 함수(x) {
+function 함수9(x) {
     return x * 2;
 }
-함수(123);
+console.log(함수9(123));
 var john = [123, true];
 var jane = { name: "jane" };
 //클래스 문법에서 타입스크립트 적용

@@ -22,10 +22,10 @@ let 문자1: 내타입 = 123;
 let 문자2: 내타입 = "문자";
 
 //변수 타입은 number, 리턴 값의 타입도 number
-function 함수(x: number): number {
+function 함수9(x: number): number {
 	return x * 2;
 }
-함수(123);
+console.log(함수9(123));
 // 함수("문자");
 
 //튜플타입 : 셀 수 있는 수량의 짝

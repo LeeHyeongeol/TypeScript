@@ -12,11 +12,9 @@ function 함수2(x) {
 //변수를 옵션으로 설정하면 반드시 변수를 할당하지 않아도 된다.
 함수2();
 //x는 유니온타입이기 때문에 nnumber 타입만 허용하는 엄격한 규칙에 위반된다. 따라서 계산이 안됨
-function 함수3(x) {
-    if (x)
-        : number;
-    {
-        console.log(x + 3);
-    }
-}
-함수3(2);
+// function 함수3(x: number | string): void {
+// 	if(x:number){
+//     console.log(x + 3);
+//   }
+// }
+// 함수3(2);
