@@ -39,3 +39,53 @@ let Position: NewType = { x: 190, y: 100 };
 
 //같은 이름의 type은 재정의가 불가능하다.
 // type PositionX = { x: string };
+
+// 숙제1. type alias 두개를 합치고 중복된 속성이 있는 경우는?
+// 중복된 속성만 허용함.
+type Homework1 = string | number;
+type Homework2 = number | boolean;
+
+type Homework3 = Homework1 & Homework2;
+
+const NewHomework: Homework3 = 12324;
+
+//숙제2 다음 조건을 만족하는 type 만들고 테스트
+type car = {
+	color?: string;
+	size: number;
+	readonly position: number[];
+};
+
+const HyunDai: car = {
+	color: "blue",
+	size: 190,
+	position: [12, 39, 9],
+};
+
+// 숙제3. 다음을 만족하는 type alias를 연습삼아 간단히 만들어보라
+
+type Inspection = {
+	name: string;
+	phone: number;
+	email: string;
+};
+
+const info: Inspection = {
+	name: "Lee",
+	phone: 78682345677,
+	email: "test@test.com",
+};
+
+// 숙제4. 다음을 만족하는 type alias를 만들어보십시오
+
+type adult = {
+	adult: boolean;
+};
+type Inspection1 = Inspection & adult;
+
+const person: Inspection1 = {
+	name: "Lee",
+	phone: 34395049,
+	email: "wooga@wooga.com",
+	adult: true,
+};

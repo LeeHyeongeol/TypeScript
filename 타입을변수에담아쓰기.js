@@ -7,3 +7,20 @@ var 여친 = {
     name: "윤주",
 };
 var Position = { x: 190, y: 100 };
+var NewHomework = 12324;
+var HyunDai = {
+    color: "blue",
+    size: 190,
+    position: [12, 39, 9],
+};
+var info = {
+    name: "Lee",
+    phone: 78682345677,
+    email: "test@test.com",
+};
+var person = {
+    name: "Lee",
+    phone: 34395049,
+    email: "wooga@wooga.com",
+    adult: true,
+};
