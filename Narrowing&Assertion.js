@@ -6,7 +6,7 @@ function 함수(x) {
         return x + 1;
     }
 }
-function 내함수(x) {
+function 내함수1(x) {
     var array = [];
     //Narrowing
     // if (typeof x === "number") {

@@ -6,7 +6,7 @@ function 함수(x: number | string) {
 	}
 }
 
-function 내함수(x: number | string) {
+function 내함수1(x: number | string) {
 	let array: number[] = [];
 	//Narrowing
 	// if (typeof x === "number") {
