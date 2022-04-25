@@ -4,5 +4,6 @@
 		"module": "commonjs",
 		"noImplicitAny": true,
 		"strictNullChecks": true
+		//strictNullChecks : false로 변경하면 null 값 체크 안하므로 html 변경 시 union type도 바로 변경 가능함.
 	}
 }
