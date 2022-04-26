@@ -1,0 +1,19 @@
+<script>
+	function 기계() {
+		(this.q = "strike"), (this.w = "sowb");
+	}
+	// 프로토타입 값은 자식들도 사용할 수 있음
+	//nunu가 name을 갖고 있지 않으면 nunu 부모유전자 뒤짐. 없으면 부모의 부모 유전자 뒤짐
+	//
+	기계.prototype.name = "kim";
+	var nunu = new 기계();
+	var 어레이 = [4, 2, 1];
+	//array라는 기계가 있는데 그 중 자식을 하나 뽑아서 값을 할당하는 방식
+	var 어레이 = new Array(4, 2, 1);
+	//  어레이.sort
+	//  어레이.length
+	//  등 배열 메소드를 쓸 수 있는 이유는 array prototype에 기능들이 정의되어 있기 때문이다.
+
+	//array 메소드를 사용하고 싶으면 -> array 유전자를 건드리면 된다!
+	Array.prototype.함수 = function () {};
+</script>
