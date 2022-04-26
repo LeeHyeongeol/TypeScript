@@ -1,0 +1,28 @@
+<script>
+	//class 문법을 사용하면 한 줄에 표현할 수 있음
+	var nunu = {
+		q: "consume",
+		w: "snowball",
+	};
+
+	//ES6 신 문법
+	function 기계(구멍) {
+		this.q = 구멍;
+		this.w = "snowball";
+	}
+
+	var nunu = new 기계("consume");
+	var garen = new 기계("strike");
+
+	console.log(nunu);
+	console.log(garen);
+
+	//예전 문법
+	class Hero {
+		constructor(구멍) {
+			this.q = 구멍;
+			this.w = "snowball";
+		}
+	}
+	new Hero();
+</script>
